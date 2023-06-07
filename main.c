@@ -29,7 +29,7 @@ void rotateZ(float cube[8][3], float angle){
 }
 
 void rotateY(float cube[8][3], float angle){
-    //rotation about z
+    //rotation about y
     float x,z;
     for(int i = 0; i < 8; i++){
         x = cube[i][0];
@@ -40,7 +40,7 @@ void rotateY(float cube[8][3], float angle){
 }
 
 void rotateX(float cube[8][3], float angle){
-    //rotation about z
+    //rotation about x
     float y,z;
     for(int i = 0; i < 8; i++){
         y = cube[i][1];
